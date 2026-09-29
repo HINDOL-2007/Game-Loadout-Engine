@@ -1,0 +1,6 @@
+Player Name :- Goku
+Power Level :- 999999
+Rank :- 2
+Health :- 50000
+Weapon :- Ki Energy
+Weapon Damage :- 1000
