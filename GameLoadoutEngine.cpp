@@ -58,11 +58,6 @@ int main()
     GameEntity *game[2];
     game[0] = &p;
     game[1] = &e;
-    for (int i = 0; i < 2; i++)
-    {
-        game[i]->showStats();
-        cout << endl;
-    }
     int choice;
     do
     {
