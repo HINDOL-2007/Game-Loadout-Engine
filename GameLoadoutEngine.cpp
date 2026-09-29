@@ -24,7 +24,7 @@ public:
     Player(string n, int pl, int r, float h) : GameEntity(n, pl), rank(r), health(h) {}
     void showStats()
     {
-        cout << "Player Name :- " << name
+        cout << "\n\nPlayer Name :- " << name
              << "\nPower Level :- " << powerLevel
              << "\nRank :- " << rank
              << "\nHealth :- " << health;
@@ -41,9 +41,7 @@ public:
     Equipment(string n, int pl, string wp, float dm) : GameEntity(n, pl), weapon(wp), damage(dm) {}
     void showStats()
     {
-        cout << "Player Name :- " << name
-             << "\nPower Level :- " << powerLevel
-             << "\nWeapon :- " << weapon
+        cout << "Weapon :- " << weapon
              << "\nWeapon Damage :- " << damage;
     }
 };
