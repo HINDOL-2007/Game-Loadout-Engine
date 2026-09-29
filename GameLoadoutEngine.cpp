@@ -131,9 +131,8 @@ int main()
                         string line = data;
                         int pos = line.find(":-")+3;
                         string piece = line.substr(pos);
-                        // cout<<piece<<endl;
-                    
-                        switch(i){
+                        switch(i)
+                        {
                             case 0:
                                 name = piece;
                                 break;
